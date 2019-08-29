@@ -91,3 +91,6 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 # Treble
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
 TARGET_COPY_OUT_VENDOR := vendor
+
+# OrangeFox
+OF_SCREEN_H := 2160
