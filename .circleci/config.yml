@@ -6,13 +6,21 @@ jobs:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
-      VERSION: '2.9.1'
+      VERSION: '3.0.0'
       MAINTAINER: '@manjotsidhu & Thanks @sm_priyo for testing'
       VENDOR: 'xiaomi'
       CODENAME: 'ysl'
       BUILD_LUNCH: 'omni_ysl-eng'
       #TEST_BUILD: 'true'
       PB_OFFICIAL: 'true'
+      CHANGELOG: " - Bringup 3.0\n
+    - Source side changes\n
+    - Fully Redesigned UI\n
+	  - New Android like Power Menu (Activated via power key hold)\n
+	  - Flashlight toggled by Vol up(+) on hold\n
+	  - Flashlight toggle on Lockscreen\n
+	  - Stock Android 10 ROM Decryption (password needed)\n
+    - Etc."
     working_directory: /home/builder/pitchblack
     steps: 
       - checkout
