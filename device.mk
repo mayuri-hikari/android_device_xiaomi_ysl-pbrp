@@ -19,4 +19,4 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/xiaomi/ysl/zImage-dtb:kernel
+    device/xiaomi/ysl/Image.gz-dtb:kernel
